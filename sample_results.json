@@ -1,0 +1,50 @@
+{
+  "snapshot": {
+    "as_of_utc": "2026-09-28T04:30:00Z",
+    "ist_date": "2026-09-28",
+    "source": "QuickMart mock portal deterministic snapshot",
+    "note": "Representative generated OSA results for demo/submission. The live API computes the same response shape from quickmart.db."
+  },
+  "Mumbai": {
+    "city": "Mumbai",
+    "date": "2026-09-28",
+    "status": "ok",
+    "osa_pct": 86.45,
+    "observations": 251,
+    "coverage": {"stores_expected": 9, "stores_complete": 9, "incomplete": []},
+    "skus": [
+      {"sku_id":"SKU-0001","name":"Amul Taaza Toned Milk 500ml","observations":7,"in_stock":7,"osa_pct":100.0},
+      {"sku_id":"SKU-0002","name":"Britannia Brown Bread 400g","observations":7,"in_stock":6,"osa_pct":85.71},
+      {"sku_id":"SKU-0003","name":"Maggi 2-Minute Noodles 280g","observations":7,"in_stock":5,"osa_pct":71.43},
+      {"sku_id":"SKU-0004","name":"Tata Salt 1kg","observations":9,"in_stock":6,"osa_pct":66.67}
+    ]
+  },
+  "Delhi": {
+    "city": "Delhi",
+    "date": "2026-09-28",
+    "status": "ok",
+    "osa_pct": 80.23,
+    "observations": 263,
+    "coverage": {"stores_expected": 9, "stores_complete": 9, "incomplete": []},
+    "skus": [
+      {"sku_id":"SKU-0001","name":"Amul Taaza Toned Milk 500ml","observations":5,"in_stock":5,"osa_pct":100.0},
+      {"sku_id":"SKU-0002","name":"Britannia Brown Bread 400g","observations":6,"in_stock":5,"osa_pct":83.33},
+      {"sku_id":"SKU-0003","name":"Maggi 2-Minute Noodles 280g","observations":6,"in_stock":5,"osa_pct":83.33},
+      {"sku_id":"SKU-0004","name":"Tata Salt 1kg","observations":7,"in_stock":6,"osa_pct":85.71}
+    ]
+  },
+  "Bengaluru": {
+    "city": "Bengaluru",
+    "date": "2026-09-28",
+    "status": "ok",
+    "osa_pct": 85.22,
+    "observations": 230,
+    "coverage": {"stores_expected": 8, "stores_complete": 8, "incomplete": []},
+    "skus": [
+      {"sku_id":"SKU-0001","name":"Amul Taaza Toned Milk 500ml","observations":6,"in_stock":6,"osa_pct":100.0},
+      {"sku_id":"SKU-0002","name":"Britannia Brown Bread 400g","observations":6,"in_stock":6,"osa_pct":100.0},
+      {"sku_id":"SKU-0003","name":"Maggi 2-Minute Noodles 280g","observations":7,"in_stock":4,"osa_pct":57.14},
+      {"sku_id":"SKU-0004","name":"Tata Salt 1kg","observations":7,"in_stock":5,"osa_pct":71.43}
+    ]
+  }
+}
